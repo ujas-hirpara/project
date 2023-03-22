@@ -1,0 +1,9 @@
+<ul>
+    <li>{{data5.id}}</li>
+    <li>{{data5.name}}</li>
+    <li>{{data5.city}}</li>
+    <li>{{data5.pincode}}</li>
+</ul>
+
+<input type="text" #box>
+<button (click)="change.emit(box.value)">button</button>
